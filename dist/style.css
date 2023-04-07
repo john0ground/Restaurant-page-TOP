@@ -15,6 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--font-dark);
 }
 
 header {
@@ -25,11 +26,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 60px 0 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .logo {
     font-family: 'Merriweather', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(238, 230, 230);
 }
 
@@ -50,5 +55,54 @@ nav > *:not(:last-child) {
 
 nav p:hover {
     background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.hero {
+    color: var(--font-light);
+    position: relative;
+    height: 700px;
+    padding-top: 200px;
+}
+
+.hero-background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.headline {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.headline,
+.sub-headline,
+.hero .line-styling {
+    margin-left: 90px;
+}
+
+.sub-headline {
+    font-size: 1.2rem;
+    max-width: 620px;
+    margin-top: 20px;
+    line-height: 1.6rem;
+}
+
+.line-styling {
+    width: 150px;
+    height: 5px;
+    background: var(--primary-color);
+    margin-top: 25px;
+}
+
+
+/* cursor => pointer */
+
+.logo:hover {
     cursor: pointer;
 }
