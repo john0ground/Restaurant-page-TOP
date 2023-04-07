@@ -58,20 +58,23 @@ nav p:hover {
     cursor: pointer;
 }
 
+/* #content {
+    border: 1px solid red;
+    margin: 0 auto;
+    max-width: 100%;
+} */
+
 .hero {
     color: var(--font-light);
-    position: relative;
-    height: 700px;
     padding-top: 200px;
 }
 
 .hero-background {
-    position: absolute;
+    position: fixed;
     z-index: -1;
-    top: 0;
+    top: -30px;
     width: 100%;
-    background-size: cover;
-    height: 100%;
+    object-fit: cover;
 }
 
 .headline {
