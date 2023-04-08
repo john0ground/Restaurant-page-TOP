@@ -1,1 +1,3 @@
-console.log('Wazzzodaefdsefsppop');
+import { displayHome } from './home';
+
+displayHome();
