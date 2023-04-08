@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
 
 :root {
     --primary-color: #689B36;
@@ -215,8 +214,6 @@ nav p:hover {
 #menu-btn:hover {
     background: #84b356;
 }
-
-/* cursor => pointer */
 
 .logo:hover,
 #menu-btn {
