@@ -1,0 +1,51 @@
+.menu-background {
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.menu-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.round-design {
+    margin-top: 120px;
+    width: 110px;
+    height: 110px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    z-index: -1;
+    position: relative;
+    top: 38px;
+}
+
+.menu-title h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+}
+
+.menu-restaurant-title {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-restaurant-title h4 {
+    margin: 0 8px 0 8px;
+    letter-spacing: 3px;
+}
+
+.menu-restaurant-title .line-styling {
+    width: 60px;
+    height: 3px;
+    background: var(--font-dark);
+}
+
+.down-icon {
+    width: 50px;
+    margin-top: 60px;
+}
