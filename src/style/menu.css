@@ -49,3 +49,49 @@
     width: 50px;
     margin-top: 60px;
 }
+
+.menu-gallery {
+    max-width: 950px;
+    background: var(--font-light);
+    margin: 0 auto;
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dish-image {
+    grid-column: span 2;
+    height: 400px;
+}
+
+.dish-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dish-details .line-styling {
+    width: 50px;
+    height: 4px;
+    background: var(--primary-color);
+    margin-top: 30px;
+}
+
+.dish-details .description {
+    text-align: center;
+    padding: 30px;
+    font-style: italic;
+    line-height: 1.5rem;
+}
