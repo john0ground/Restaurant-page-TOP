@@ -1,0 +1,27 @@
+.contact-page {
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 45px;
+    background-color: var(--font-light);
+}
+
+.contact-page img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-left: 25px;
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+
+.contact-info .contact-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
