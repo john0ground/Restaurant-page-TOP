@@ -30,8 +30,18 @@ const changePages = (() => {
             }
         };
     }
+
+    function darkenActiveNav(e) {
+        const navLinks = navbar.querySelectorAll('p');
+        navLinks.forEach((link) => {
+            link.style.color = 'var(--font-light)';
+        });
+
+        e.target.style.color = 'var(--font-dark)';
+    }
     
     navbar.childNodes.forEach((nav) => {
         nav.addEventListener('click', displayPage);
+        nav.addEventListener('click', darkenActiveNav);
     });
 })();
