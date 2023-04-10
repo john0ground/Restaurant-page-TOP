@@ -9,11 +9,6 @@ displayHome();
 
 const changePages = (() => {
     const navbar = document.querySelector('nav');
-    
-    const navBreak = document.querySelectorAll('.nav-break');
-    navBreak.forEach((nav) => {
-        nav.style.pointerEvents = 'none';
-    });
 
     let currentPage = 'Home';
 

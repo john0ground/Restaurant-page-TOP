@@ -46,6 +46,7 @@ nav {
 .nav-break {
     width: 2px;
     background: rgb(238, 230, 230);
+    pointer-events: none;
 }
 
 nav > *:not(:last-child) {
