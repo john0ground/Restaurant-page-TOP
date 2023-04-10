@@ -22,7 +22,8 @@ const changePages = (() => {
 
             switch (currentPage) {
                 case 'Home':
-                    return displayHome();
+                     displayHome();
+                     return setMenuBtnListener();
                 case 'Menu':
                     return displayMenu();
                 case 'Contact':
@@ -37,6 +38,10 @@ const changePages = (() => {
             link.style.color = 'var(--font-light)';
         });
 
+        if (e.target.id === 'menu-btn') {
+            return navLinks[1].style.color = 'var(--font-dark)';
+        }
+
         e.target.style.color = 'var(--font-dark)';
     }
     
@@ -44,4 +49,14 @@ const changePages = (() => {
         nav.addEventListener('click', displayPage);
         nav.addEventListener('click', darkenActiveNav);
     });
+
+    function setMenuBtnListener () {
+        const menuBtn = document.querySelector('#menu-btn')
+        menuBtn.addEventListener('click', displayPage);
+        menuBtn.addEventListener('click', darkenActiveNav);
+    }
+
+    return { setMenuBtnListener };
 })();
+
+changePages.setMenuBtnListener();
