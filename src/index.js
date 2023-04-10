@@ -39,7 +39,7 @@ const changePages = (() => {
         });
 
         if (e.target.id === 'menu-btn') {
-            return navLinks[1].style.color = 'var(--font-dark)';
+            return navLinks[1].style.color = 'var(--font-dark)';   //  navLinks[1] targets 'menu' nav
         }
 
         e.target.style.color = 'var(--font-dark)';
