@@ -7,7 +7,7 @@ import './style/menu.css';
 import './style/contact.css';
 import './style/reference.css';
 
-// displayHome();
+displayHome();
 
 const changePages = (() => {
     const navList = document.querySelector('.nav-list');
@@ -30,6 +30,8 @@ const changePages = (() => {
                     return displayMenu();
                 case 'Contact':
                     return displayContact();
+                case 'Reference Sources':
+                    return displaySources();
             }
         };
     }
@@ -39,6 +41,7 @@ const changePages = (() => {
         navLinks.forEach((link) => {
             link.style.color = 'var(--font-light)';
         });
+        sourcesLink.style.color = 'var(--font-light)';
 
         if (e.target.id === 'menu-btn') {
             return navLinks[1].style.color = 'var(--font-dark)';   //  navLinks[1] targets 'menu' nav
@@ -51,6 +54,10 @@ const changePages = (() => {
         nav.addEventListener('click', displayPage);
         nav.addEventListener('click', darkenActiveNav);
     });
+
+    const sourcesLink = document.querySelector('.sources');
+    sourcesLink.addEventListener('click', displayPage);
+    sourcesLink.addEventListener('click', darkenActiveNav);
 
     function setMenuBtnListener () {
         const menuBtn = document.querySelector('#menu-btn')
