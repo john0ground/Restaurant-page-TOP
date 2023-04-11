@@ -1,11 +1,13 @@
 import { displayHome } from './home';
 import { displayMenu } from './menu';
 import { displayContact } from './contact';
+import { displaySources } from './reference';
 import './style/home.css';
 import './style/menu.css';
 import './style/contact.css';
+import './style/reference.css';
 
-displayHome();
+// displayHome();
 
 const changePages = (() => {
     const navList = document.querySelector('.nav-list');
