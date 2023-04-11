@@ -15,7 +15,7 @@ const displayContact = () => {
     menuSection.appendChild(roundDesign);
     
     const menuTitle = document.createElement('h1');
-    menuTitle.textContent = 'MENU';
+    menuTitle.textContent = 'CONTACT';
     menuSection.appendChild(menuTitle);
     
     const menuRestaurantTitle = document.createElement('div');
