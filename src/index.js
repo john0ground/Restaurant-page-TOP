@@ -8,7 +8,7 @@ import './style/contact.css';
 displayHome();
 
 const changePages = (() => {
-    const navbar = document.querySelector('nav');
+    const navList = document.querySelector('.nav-list');
 
     let currentPage = 'Home';
 
@@ -33,7 +33,7 @@ const changePages = (() => {
     }
 
     function darkenActiveNav(e) {
-        const navLinks = navbar.querySelectorAll('p');
+        const navLinks = navList.querySelectorAll('li');
         navLinks.forEach((link) => {
             link.style.color = 'var(--font-light)';
         });
@@ -45,7 +45,7 @@ const changePages = (() => {
         e.target.style.color = 'var(--font-dark)';
     }
     
-    navbar.childNodes.forEach((nav) => {
+    navList.childNodes.forEach((nav) => {
         nav.addEventListener('click', displayPage);
         nav.addEventListener('click', darkenActiveNav);
     });

@@ -37,32 +37,21 @@ header {
     color: rgb(238, 230, 230);
 }
 
-nav {
+nav ul {
     color: rgb(238, 230, 230);
     display: flex;
     justify-content: end;
+    list-style: none;
 }
 
-.nav-break {
-    width: 2px;
-    background: rgb(238, 230, 230);
-    pointer-events: none;
+nav ul > *:not(:last-child) {
+    margin-right : 35px;
 }
 
-nav > *:not(:last-child) {
-    margin-right : 20px;
-}
-
-nav p:hover {
+nav ul li:hover {
     background: rgba(255, 255, 255, 0.3);
     cursor: pointer;
 }
-
-/* #content {
-    border: 1px solid red;
-    margin: 0 auto;
-    max-width: 100%;
-} */
 
 .hero {
     color: var(--font-light);
