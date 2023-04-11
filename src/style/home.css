@@ -161,6 +161,7 @@ nav ul li:hover {
 
 .specialties-background {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -199,6 +200,7 @@ nav ul li:hover {
     color: var(--font-light);
     border: none;
     padding: 0.5em 1.5em;
+    margin-bottom: 80px;
 }
 
 #menu-btn:hover {
@@ -206,6 +208,38 @@ nav ul li:hover {
 }
 
 .logo:hover,
-#menu-btn {
+#menu-btn,
+.sources {
     cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    color: var(--font-light);
+    font-size: 0.9rem;
+}
+
+.sources, 
+.github,
+.top-link {
+    text-decoration: none;
+    color: var(--font-light);
+    font-style: italic;
+}
+
+.sources:hover,
+.top-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.github {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
