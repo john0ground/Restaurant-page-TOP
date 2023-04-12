@@ -3,7 +3,7 @@ const displaySources = () => {
 
     const sourcesBackground = document.createElement("img");
     sourcesBackground.classList.add("sources-background");
-    sourcesBackground.src = "../images/sub-background.png";
+    sourcesBackground.src = "images/sub-background.png";
     sourcesBackground.alt = "ramen-background";
     content.appendChild(sourcesBackground);
 
