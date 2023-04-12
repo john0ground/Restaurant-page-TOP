@@ -7,7 +7,7 @@ const displayHome = () => {
     heroSection.classList.add('hero');
 
     const heroBackground = document.createElement('img');
-    heroBackground.setAttribute('src', '../images/main-background.png');
+    heroBackground.setAttribute('src', './images/main-background.png');
     heroBackground.setAttribute('alt', 'spicy-beef-ramen-background');
     heroBackground.classList.add('hero-background');
 
@@ -46,7 +46,7 @@ const displayHome = () => {
     aboutUsLineStyle.classList.add('line-styling');
 
     const aboutUsImg = document.createElement('img');
-    aboutUsImg.setAttribute('src', '../images/about-us.jpg');
+    aboutUsImg.setAttribute('src', './images/about-us.jpg');
     aboutUsImg.setAttribute('alt', 'chef-cooking');
 
     detailsDiv.appendChild(aboutUsTitle);
@@ -62,7 +62,7 @@ const displayHome = () => {
     specialtiesSection.classList.add('specialties');
 
     const specialtiesBackground = document.createElement('img');
-    specialtiesBackground.setAttribute('src', '../images/sub-background.png');
+    specialtiesBackground.setAttribute('src', './images/sub-background.png');
     specialtiesBackground.setAttribute('alt', 'ramen-background');
     specialtiesBackground.classList.add('specialties-background');
 
@@ -80,7 +80,7 @@ const displayHome = () => {
     const specialty1 = document.createElement('div');
     specialty1.classList.add('specialty-container');
     const imgSpecialty1 = document.createElement('img');
-    imgSpecialty1.setAttribute('src', '../images/shoyu.jpg');
+    imgSpecialty1.setAttribute('src', './images/shoyu.jpg');
     imgSpecialty1.setAttribute('alt', 'shoyu ramen');
     const specialtyP1 = document.createElement('p');
     specialtyP1.textContent = 'Shoyu Ramen';
@@ -90,7 +90,7 @@ const displayHome = () => {
     const specialty2 = document.createElement('div');
     specialty2.classList.add('specialty-container');
     const imgSpecialty2 = document.createElement('img');
-    imgSpecialty2.setAttribute('src', '../images/spicy-beef.jpg');
+    imgSpecialty2.setAttribute('src', './images/spicy-beef.jpg');
     imgSpecialty2.setAttribute('alt', 'spicy beef ramen');
     const specialtyP2 = document.createElement('p');
     specialtyP2.textContent = 'Spicy Beef Ramen';
@@ -100,7 +100,7 @@ const displayHome = () => {
     const specialty3 = document.createElement('div');
     specialty3.classList.add('specialty-container');
     const imgSpecialty3 = document.createElement('img');
-    imgSpecialty3.setAttribute('src', '../images/tonkotsu.jpg');
+    imgSpecialty3.setAttribute('src', './images/tonkotsu.jpg');
     imgSpecialty3.setAttribute('alt', 'tonkotsu ramen');
     const specialtyP3 = document.createElement('p');
     specialtyP3.textContent = 'Tonkotsu Ramen';

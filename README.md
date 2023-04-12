@@ -6,4 +6,4 @@ Task from [The Odin Project](https://www.theodinproject.com/lessons/node-path-ja
 - Handling development dependencies with npm and installing packages. <br>
 - Using a task runner (npm scripts) for automating parts of the build process ('build', 'watch')
 
-![Page Screenshot](./images/screenshot.png)
+![Page Screenshot](./dist/images/screenshot.png)

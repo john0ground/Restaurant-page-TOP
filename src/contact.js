@@ -2,7 +2,7 @@ const displayContact = () => {
     const content = document.querySelector('#content');
 
     const menuImg = document.createElement('img');
-    menuImg.setAttribute('src', '../images/wood-background.jpg');
+    menuImg.setAttribute('src', './images/wood-background.jpg');
     menuImg.setAttribute('alt', 'white-wood-background');
     menuImg.classList.add('menu-background');
 
@@ -51,7 +51,7 @@ const displayContact = () => {
     contactSection.classList.add('contact-page');
 
     const img = document.createElement("img");
-    img.src = "../images/restaurant.jpg";
+    img.src = "./images/restaurant.jpg";
     img.alt = "restaurant";
     contactSection.appendChild(img);
 

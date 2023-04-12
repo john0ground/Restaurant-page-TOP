@@ -2,7 +2,7 @@ const displayMenu = () => {
     const content = document.querySelector('#content');
 
     const menuImg = document.createElement('img');
-    menuImg.setAttribute('src', '../images/wood-background.jpg');
+    menuImg.setAttribute('src', './images/wood-background.jpg');
     menuImg.setAttribute('alt', 'white-wood-background');
     menuImg.classList.add('menu-background');
 
@@ -73,7 +73,7 @@ const displayMenu = () => {
     shoyuImage.classList.add("dish-image");
 
     const shoyuImg = document.createElement("img");
-    shoyuImg.setAttribute("src", "../images/shoyu.jpg");
+    shoyuImg.setAttribute("src", "./images/shoyu.jpg");
     shoyuImg.setAttribute("alt", "shoyu ramen");
 
     shoyuImage.appendChild(shoyuImg);
@@ -86,7 +86,7 @@ const displayMenu = () => {
     spicyBeefImage.classList.add("dish-image");
 
     const spicyBeefImg = document.createElement("img");
-    spicyBeefImg.setAttribute("src", "../images/spicy-beef.jpg");
+    spicyBeefImg.setAttribute("src", "./images/spicy-beef.jpg");
     spicyBeefImg.setAttribute("alt", "spicy beef ramen");
 
     spicyBeefImage.appendChild(spicyBeefImg);
@@ -135,7 +135,7 @@ const displayMenu = () => {
     shioImage.classList.add("dish-image");
 
     const shioImg = document.createElement("img");
-    shioImg.setAttribute("src", "../images/shio.jpg");
+    shioImg.setAttribute("src", "./images/shio.jpg");
     shioImg.setAttribute("alt", "shio ramen");
 
     shioImage.appendChild(shioImg);
@@ -148,7 +148,7 @@ const displayMenu = () => {
     ichirakuImage.classList.add("dish-image");
 
     const ichirakuImg = document.createElement("img");
-    ichirakuImg.setAttribute("src", "../images/ichiraku.webp");
+    ichirakuImg.setAttribute("src", "./images/ichiraku.webp");
     ichirakuImg.setAttribute("alt", "ichiraku ramen");
 
     ichirakuImage.appendChild(ichirakuImg);
@@ -197,7 +197,7 @@ const displayMenu = () => {
     tonkotsuImage.classList.add("dish-image");
 
     const tonkotsuImg = document.createElement("img");
-    tonkotsuImg.setAttribute("src", "../images/tonkotsu.jpg");
+    tonkotsuImg.setAttribute("src", "/images/tonkotsu.jpg");
     tonkotsuImg.setAttribute("alt", "tonkotsu ramen");
 
     tonkotsuImage.appendChild(tonkotsuImg);
