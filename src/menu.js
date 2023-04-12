@@ -197,7 +197,7 @@ const displayMenu = () => {
     tonkotsuImage.classList.add("dish-image");
 
     const tonkotsuImg = document.createElement("img");
-    tonkotsuImg.setAttribute("src", "/images/tonkotsu.jpg");
+    tonkotsuImg.setAttribute("src", "./images/tonkotsu.jpg");
     tonkotsuImg.setAttribute("alt", "tonkotsu ramen");
 
     tonkotsuImage.appendChild(tonkotsuImg);
